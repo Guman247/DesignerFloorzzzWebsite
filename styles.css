@@ -1054,7 +1054,8 @@ em {
         font-size: 0.8rem;
     }
 
-    .top-bar-location {
+    .top-bar-location,
+    .top-bar-item[href^="mailto:"] {
         display: none;
     }
 
